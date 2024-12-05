@@ -1,32 +1,27 @@
-# Core Streamlit requirements
-streamlit>=1.22.0
-pandas>=1.3.5
-numpy>=1.21.0
-matplotlib>=3.5.1
+# Essential Libraries
+streamlit==1.11.1  # Specify the exact version of Streamlit you are using or tested with
+pandas>=1.3.0,<2.0.0
+numpy>=1.21.0,<2.0.0
 
-# Data manipulation and machine learning
-scikit-learn>=1.0.2
-joblib>=1.1.0
-scipy>=1.7.3
+# Data Visualization (if needed)
+matplotlib>=3.5.0,<4.0.0
+seaborn>=0.11.0,<1.0.0
 
-# Additional libraries for visualizations or enhancements
-seaborn>=0.11.2
-plotly>=5.6.0
+# Machine Learning (if applicable)
+scikit-learn>=0.24.0,<1.0.0
 
-# For external data fetching or API calls
-requests>=2.27.1
+# Database connection (if you're using any)
+SQLAlchemy>=1.4.0,<2.0.0
 
-# For managing environment and dependencies
-pip>=22.2.2
-setuptools>=63.4.3
+# Additional tools or libraries you might need
+requests>=2.26.0,<3.0.0
+plotly>=5.0.0,<6.0.0
 
-# If you need to use any cloud services or databases
-# For example, for SQL databases:
-# psycopg2-binary>=2.9.3  # PostgreSQL
-# mysqlclient>=2.1.0       # MySQL
+# For cloud deployment specific requirements
+# (You might not need these if Streamlit Cloud already provides them)
+# gunicorn==20.1.0  # For serving the application
+# psycopg2-binary==2.9.3  # If you're connecting to a PostgreSQL database
 
-# If you're using any authentication or security features:
-# python-jose>=3.3.0
-# bcrypt>=3.2.0
-
-# Make sure to include any project-specific packages here
+# Any other specific packages or versions for your project
+# Example:
+# mycustomlibrary==1.0.0
