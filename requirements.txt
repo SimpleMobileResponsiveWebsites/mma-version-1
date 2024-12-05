@@ -1,27 +1,3 @@
 # Essential Libraries
-streamlit==1.11.1  # Specify the exact version of Streamlit you are using or tested with
+streamlit==1.25.0
 pandas>=1.3.0,<2.0.0
-numpy>=1.21.0,<2.0.0
-
-# Data Visualization (if needed)
-matplotlib>=3.5.0,<4.0.0
-seaborn>=0.11.0,<1.0.0
-
-# Machine Learning (if applicable)
-scikit-learn>=0.24.0,<1.0.0
-
-# Database connection (if you're using any)
-SQLAlchemy>=1.4.0,<2.0.0
-
-# Additional tools or libraries you might need
-requests>=2.26.0,<3.0.0
-plotly>=5.0.0,<6.0.0
-
-# For cloud deployment specific requirements
-# (You might not need these if Streamlit Cloud already provides them)
-# gunicorn==20.1.0  # For serving the application
-# psycopg2-binary==2.9.3  # If you're connecting to a PostgreSQL database
-
-# Any other specific packages or versions for your project
-# Example:
-# mycustomlibrary==1.0.0
